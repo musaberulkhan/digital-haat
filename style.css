@@ -116,3 +116,52 @@ body{
 .body-heading .haat div:hover{
     transform: scale(0.9);
 }
+
+
+
+/*---------------                      Search                       --------------*/
+.search h3{
+    color: #BF0707;
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.search .search-buttons .search-button{
+    padding: 10px 20px!important;
+}
+
+.search .search-buttons .search-button p{
+    text-decoration: none;
+    width: 100%;
+    background-color: #BF0707;;
+    padding: 10px 20px;
+    margin-top: 5px;    
+    border-radius: 7px;
+    transition: all 0.3s ease;
+}
+
+.search .search-buttons .search-button:hover p{ 
+        background-color: #8d0000;
+}
+
+.search .search-buttons .search-button p a{
+    text-decoration: none; 
+    color: white;
+    font-size: 15px;
+}
+
+.search .search-buttons .search-button a i{
+    margin-right: 10px;
+}
+
+.search .search-box{
+   
+}
+
+.search .search-box input{
+    width: 100%;
+    padding: 8px 15px;
+    border: 1px solid gray;
+    border-radius: 10px;
+}
