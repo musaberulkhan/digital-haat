@@ -3,6 +3,9 @@ body{
     font-family: 'Hind Siliguri', sans-serif;
 }
 
+h1{
+}
+
 /*****************************************************************************************
                                        Header Section
 *****************************************************************************************/
@@ -155,13 +158,61 @@ body{
     margin-right: 10px;
 }
 
-.search .search-box{
-   
-}
-
 .search .search-box input{
     width: 100%;
     padding: 8px 15px;
     border: 1px solid gray;
     border-radius: 10px;
+}
+
+
+  
+/*---------------                         Categories                         --------------*/
+.categories{
+    margin-top: 80px;
+    margin-bottom: 100px; 
+}
+
+.categories h1{
+    text-align: center;
+    font-size: 40px;
+    font-weight: 700; 
+    margin-bottom: 50px; 
+}
+
+.categories .category-item{
+    padding: 5px 15px;
+}
+
+.categories .category-item div{
+    background-color: rgb(206, 206, 206);
+    padding: 35px;    
+    transition: all 0.4s ease;
+}
+
+.categories .category-item div:hover
+{
+    background-color: #BF0707;
+    cursor: pointer;
+}
+
+.categories .category-item div:hover h3{
+    color: white;
+}
+
+.categories .category-item div:hover img{
+    transform: scale(1.1);
+}
+
+.categories .category-item img{
+    width: 100%; 
+    transition: all 0.4s ease;   
+}
+
+.categories .category-item h3{
+    text-align: center;
+    font-size: 27px;
+    font-weight: 700;
+    margin-top: 15px;
+    transition: all 0.4s ease;
 }
