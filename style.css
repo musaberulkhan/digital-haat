@@ -3,9 +3,26 @@ body{
     font-family: 'Hind Siliguri', sans-serif;
 }
 
-h1{
+.categories h1,
+.all-animals h1{
+    text-align: center;
+    font-size: 40px;
+    font-weight: 700; 
+    margin-bottom: 50px; 
+    overflow: hidden;
 }
 
+.categories h1::after,
+.all-animals h1::after{
+    margin-right: auto;
+    margin-left: auto;    
+    margin-top: 15px;   
+    content:"";    
+    display: block;
+    height: 0.5em;    
+    width: 100px;        
+    border-top: 5px solid #BF0707;
+}
 /*****************************************************************************************
                                        Header Section
 *****************************************************************************************/
@@ -173,25 +190,6 @@ h1{
     margin-bottom: 100px; 
 }
 
-.categories h1{
-    text-align: center;
-    font-size: 40px;
-    font-weight: 700; 
-    margin-bottom: 50px; 
-    overflow: hidden;
-}
-
-.categories h1::after {
-    margin-right: auto;
-    margin-left: auto;    
-    margin-top: 15px;   
-    content:"";    
-    display: block;
-    height: 0.5em;    
-    width: 100px;        
-    border-top: 5px solid #BF0707;
-}
-
 .categories .category-item{
     padding: 5px 15px;
 }
@@ -293,4 +291,87 @@ h1{
 .top-animals .top-animals-item:hover .top-animals-item-details{       
     opacity: 1;
     cursor: pointer;
+}
+
+
+
+  
+/*---------------                         All Animals                         --------------*/
+.all-animals{
+    margin-top: 100px;
+}
+
+.all-animals .animal-card{   
+    padding: 15px;
+    margin-top: 15px;
+     
+    
+}
+
+.all-animals .animal-item{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1), 0 6px 20px 0 rgba(0, 0, 0, 0.19);   
+}
+
+.all-animals .animal-image{
+    position: relative;
+}
+
+.all-animals .animal-price{
+    position: absolute;    
+    bottom: 10px;
+    left: 20%;
+    right: 0;
+    height: 35px;
+    background-color: #7c0000;
+}
+
+.all-animals .animal-price h5{
+    color: white;
+    font-weight: 700;
+    margin-left: 15px;
+    margin-top: 5px;
+}
+
+.all-animals .animal-details{
+    padding: 10px 15px;
+}
+
+.all-animals .animal-details h6{
+    margin-top: 10px;
+    padding: 3px 15px;
+    display: inline-block;
+    background-color:#7c0000; 
+    color: white;
+    border-radius: 15px;   
+}
+
+.all-animals .animal-details h4{
+    font-weight: 700;   
+}
+
+.all-animals .animal-details p{
+    font-weight: 600;
+    color: rgb(70, 70, 70);
+}
+
+.all-animals .animal-details p i{
+    margin-right: 10px;    
+}
+
+.all-animals-footer{
+    margin-top: 40px;
+    margin-bottom: 80px;
+}
+
+.all-animals-footer a{
+    padding: 10px 40px;
+    background-color:#7c0000;
+    color: white;
+    font-weight: 500;
+    border: none;
+}
+
+.all-animals-footer a:hover{
+    background-color:#a32121;
+    color: white;
 }
