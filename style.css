@@ -4,7 +4,8 @@ body{
 }
 
 .categories h1,
-.all-animals h1{
+.all-animals h1,
+.all-district .all-district-heading h1{
     text-align: center;
     font-size: 40px;
     font-weight: 700; 
@@ -13,7 +14,8 @@ body{
 }
 
 .categories h1::after,
-.all-animals h1::after{
+.all-animals h1::after,
+.all-district .all-district-heading h1::after{
     margin-right: auto;
     margin-left: auto;    
     margin-top: 15px;   
@@ -360,7 +362,7 @@ body{
 
 .all-animals-footer{
     margin-top: 40px;
-    margin-bottom: 80px;
+    margin-bottom: 100px;
 }
 
 .all-animals-footer a{
@@ -375,3 +377,65 @@ body{
     background-color:#a32121;
     color: white;
 }
+
+
+
+
+
+  
+/*---------------                         All District                         --------------*/
+
+.all-district{
+    margin-bottom: 100px;
+}
+
+.all-district .district{
+    position: relative;    
+}
+
+.all-district .district-card{
+    padding: 0px;
+    margin-top:20px;
+    position: relative;
+}
+
+.all-district .district-card .district-name{    
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    text-align: center;     
+    bottom: 10px;
+    z-index: 999;    
+}
+
+.all-district .district-card .district-name h5{
+    position: absolute;
+    z-index: 9999;
+    bottom: 0px;
+    font-weight: 700;
+    border-top: 3px solid white;
+    color: white;   
+}
+
+.all-district-footer{
+    margin-top: 40px;
+}
+
+.all-district-footer a{
+    padding: 10px 40px;
+    background-color:#7c0000;
+    color: white;
+    font-weight: 500;
+    border: none;
+}
+
+.all-district-footer a:hover{
+    background-color:#a32121;
+    color: white;
+}
+
+.all-district-footer a i{
+    margin-right: 5px;
+}
+
