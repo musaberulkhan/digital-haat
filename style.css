@@ -481,6 +481,76 @@ body{
     color: white;
 }
 
+.partner-org{
+    margin-bottom: 100px;
+}
+
+
 .partner-org .organizations .organization img{    
     width: 60%;
+}
+
+
+
+
+/*****************************************************************************************
+                                       Footer
+*****************************************************************************************/
+
+footer{
+    background-color: rgb(12, 12, 12);
+    padding-top: 60px;
+    padding-bottom: 50px;
+    color: white;
+}
+
+footer h3{
+    font-size: 26px;
+    font-weight: 600;
+}
+
+footer h3::after{      
+    margin-top: 20px;
+    margin-bottom: 25px;   
+    content:"";    
+    display: block;
+    height: 0.5em;    
+    width: 60px;        
+    border-top: 3px solid #BF0707;
+}
+
+footer .row{
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.footer-about{
+    margin-top: 15px;
+    padding-right: 15px;
+    text-align: justify;
+}
+
+footer ul {
+    padding-left: 0;
+}
+
+footer ul li{
+    list-style: none;
+    margin-left: 0;
+    margin-bottom: 10px;
+}
+
+footer ul li a{
+    text-decoration: none;
+    color: white;
+}
+
+.social-icon i{
+    font-size: 25px;
+    margin-right: 12px;
+}
+
+
+.copyright{
+    background-color: lightgrey;
 }
