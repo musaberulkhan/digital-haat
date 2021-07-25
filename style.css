@@ -5,7 +5,8 @@ body{
 
 .categories h1,
 .all-animals h1,
-.all-district .all-district-heading h1{
+.all-district .all-district-heading h1,
+.partner-org h1{
     text-align: center;
     font-size: 40px;
     font-weight: 700; 
@@ -15,7 +16,8 @@ body{
 
 .categories h1::after,
 .all-animals h1::after,
-.all-district .all-district-heading h1::after{
+.all-district .all-district-heading h1::after,
+.partner-org h1::after{
     margin-right: auto;
     margin-left: auto;    
     margin-top: 15px;   
@@ -24,6 +26,21 @@ body{
     height: 0.5em;    
     width: 100px;        
     border-top: 5px solid #BF0707;
+}
+
+.send-message-messenger{
+    z-index: 999999;
+    width: 50px;
+    height: 40px;
+    position: fixed;
+    bottom: 30px;
+    right: 20px;
+    transition: all 0.3s;
+}
+
+.send-message-messenger:hover{
+    transform: scale(1.1);
+    cursor: pointer;
 }
 /*****************************************************************************************
                                        Header Section
@@ -439,3 +456,31 @@ body{
     margin-right: 5px;
 }
 
+
+
+/*---------------                         Body Ending Section                          --------------*/
+.give-ad{
+    margin-bottom: 100px;
+}
+
+.give-ad h2{
+    font-weight: 700;
+    margin-bottom: 25px;
+}
+
+.give-ad .give-ad-button a{
+    padding: 10px 40px;
+    background-color:#7c0000;
+    color: white;
+    font-weight: 500;
+    border: none;
+}
+
+.give-ad .give-ad-button a:hover{
+    background-color:#a32121;
+    color: white;
+}
+
+.partner-org .organizations .organization img{    
+    width: 60%;
+}
